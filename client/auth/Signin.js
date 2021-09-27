@@ -73,7 +73,7 @@ export default function Signin(props) {
       }
   }
   const {redirectToReferrer} = values
-  if (redirectToReferrer) {
+    if (redirectToReferrer) {
       return (<Redirect to={from}/>)
   }
 
@@ -97,4 +97,4 @@ export default function Signin(props) {
         </CardActions>
       </Card>
     )
-        }
+}
